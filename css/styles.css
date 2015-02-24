@@ -1,0 +1,33 @@
+.teacher i{
+	display:block;
+	font-size:0.8em;
+	font-weight:normal;
+	font-style:normal;
+}
+
+.teacher b{
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	font-size: 0.9em;
+}
+
+.teacher{
+	height: 30px;
+}
+
+
+@media all and (min-width: 650px){
+
+	.rightColumn{
+		width:56%;
+		float:right;
+		margin-left:4%;
+	}
+	
+	.leftColumn{
+		width:40%;
+		float:left;
+	}
+
+}
