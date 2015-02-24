@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteBase /
+RewriteRule ^api/(.*)$ http://api.beauty.alem.me/$1 [P,L]
