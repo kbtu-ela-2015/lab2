@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/aibek/NetBeansProjects/WebSite/web/newsdetails.jsp</file>
+            <file>file:/Users/aibek/NetBeansProjects/WebSite/src/java/controllers/NewsController.java</file>
+            <file>file:/Users/aibek/NetBeansProjects/WebSite/web/index.html</file>
+            <file>file:/Users/aibek/NetBeansProjects/WebSite/web/mainpage.jsp</file>
+            <file>file:/Users/aibek/NetBeansProjects/WebSite/src/java/models/ContactsModel.java</file>
+            <file>file:/Users/aibek/NetBeansProjects/WebSite/src/java/models/NewsDetailsModel.java</file>
+            <file>file:/Users/aibek/NetBeansProjects/WebSite/web/footer.jsp</file>
+            <file>file:/Users/aibek/NetBeansProjects/WebSite/src/java/controllers/MainPageController.java</file>
+            <file>file:/Users/aibek/NetBeansProjects/WebSite/web/contacts.jsp</file>
+            <file>file:/Users/aibek/NetBeansProjects/WebSite/web/header.jsp</file>
+            <file>file:/Users/aibek/NetBeansProjects/WebSite/src/java/models/MainPageModel.java</file>
+            <file>file:/Users/aibek/NetBeansProjects/WebSite/web/template.jsp</file>
+            <file>file:/Users/aibek/NetBeansProjects/WebSite/web/main.css</file>
+            <file>file:/Users/aibek/NetBeansProjects/WebSite/src/java/models/NewsModel.java</file>
+            <file>file:/Users/aibek/NetBeansProjects/WebSite/src/java/controllers/ContactsController.java</file>
+            <file>file:/Users/aibek/NetBeansProjects/WebSite/web/newslist.jsp</file>
+            <file>file:/Users/aibek/NetBeansProjects/WebSite/web/WEB-INF/web.xml</file>
+            <file>file:/Users/aibek/NetBeansProjects/WebSite/src/java/controllers/NewsDetailsController.java</file>
+        </group>
+    </open-files>
+</project-private>
