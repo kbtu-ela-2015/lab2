@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02.10.2014, 19:40:29
+    Author     : aibek
+*/
+
+body {
+font-size: 15px;
+font-family: Arial;
+padding: 0px;
+margin: 0px;
+background: #333;
+}
+.header {
+width: 100%;
+height: 90px;
+background: #555;
+position: absolute;
+top: 0px;
+left: 0px;
+}
+
+.footer {position: fixed; 
+        left: 0px; 
+        bottom: 0px; 
+        height: 100px; 
+        width: 100%;
+        background: #555;
+        
+        }
+        
+.footermenu {
+width: 960px;
+height: 50px;
+border-radius: 5px;
+background: #fff;
+margin: 20px auto;
+text-align: center;
+}
+        
+.mainmenu {
+width: 960px;
+height: 50px;
+border-radius: 5px;
+background: #fff;
+margin: 20px auto;
+}
+.mainmenu ul {
+padding: 0px;
+margin: 0px;
+list-style: none;
+padding-left: 20px;
+}
+.mainmenu ul li {
+float: left;
+}
+.mainmenu ul li:hover {
+background: #f9f9f9;
+}
+.mainmenu ul li a {
+padding: 5px 10px;
+line-height: 50px;
+border-right: 1px solid #f1f1f1;
+color: #333;
+text-decoration: none;
+}
+.content {
+width: 940px;
+margin: 110px auto;
+min-height: 500px;
+background: #fff;
+color: #333;
+border-radius: 5px;
+padding: 10px;
+}
+
+#title{
+    font-family: Open-Sans;
+    font-size: 30px
+}
+
+#text{
+    font-family: Open-Sans;
+    font-size: 20px
+}

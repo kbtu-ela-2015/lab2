@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>MainPageController</servlet-name>
+        <servlet-class>controllers.MainPageController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>NewsController</servlet-name>
+        <servlet-class>controllers.NewsController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ContactsController</servlet-name>
+        <servlet-class>controllers.ContactsController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>NewsDetailsController</servlet-name>
+        <servlet-class>controllers.NewsDetailsController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MainPageController</servlet-name>
+        <url-pattern>/main</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>NewsController</servlet-name>
+        <url-pattern>/news</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ContactsController</servlet-name>
+        <url-pattern>/contacts</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>NewsDetailsController</servlet-name>
+        <url-pattern>/newsdetails</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
