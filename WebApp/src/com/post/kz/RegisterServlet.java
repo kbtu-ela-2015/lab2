@@ -29,16 +29,6 @@ public class RegisterServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		String name = request.getParameter("name");
-		String password = request.getParameter("password");
-		
-		User u = new User(name, password);
-		DB.signUp(u);
-		request.setAttribute("name", request.getParameter("name"));
-		//request.setAttribute("password", request.getParameter("name"));
-		RequestDispatcher view = getServletContext().getRequestDispatcher("/welcome.jsp"); 
-		view.forward(request,response);
-		//response.sendRedirect("welcome.jsp");
 		
 	}
 
@@ -46,7 +36,17 @@ public class RegisterServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		String name = request.getParameter("name");
+		String password = request.getParameter("password");
+		
+		User u = new User(name, password);
+		DB.signUp(u);
+		request.setAttribute("name", request.getParameter("name"));
+		//request.setAttribute("password", request.getParameter("name"));
+		RequestDispatcher view = getServletContext().getRequestDispatcher("/welcome.jsp");
+		RequestDispatcher view1 = getServletContext().getRequestDispatcher("/page-2.jsp");
+		view.forward(request,response);
+		view1.forward(request, response);
 	}
 
 }

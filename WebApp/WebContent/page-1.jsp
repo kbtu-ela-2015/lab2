@@ -28,12 +28,13 @@
             <h2 class="blog-post-title">Blog by</h2> <%= request.getParameter("name") %>
             <p class="blog-post-meta"></p>
             
-		<form name="MyForm" action="PostServlet" method="get">
+		<form name="MyForm" action="PostServlet" method="post">
             <input type="text" name="blog_text" id="post_box" value="Something New?"></input>
-            <hr>
+            <hr>				
             <input type="submit" name="submit" id="btn_post" value="Post" ></input>
 		</form>
-          
+		
+		
 
         </div><!-- /.blog-main -->
       </div><!-- /.row -->

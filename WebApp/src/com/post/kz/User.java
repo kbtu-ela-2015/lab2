@@ -1,15 +1,16 @@
 package com.post.kz;
 
 public class User {
-	static String name;
-	static String password;
+	private String name;
+	private String password;
 	
 	public User(String name, String password){
 		this.name = name;
 		this.password = password;
 	}
+	public User(){}
 
-	public static String getName() {
+	public String getName() {
 		return name;
 	}
 

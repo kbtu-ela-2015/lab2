@@ -10,7 +10,7 @@
 
 
     
-    <form name="login" action="RegisterServlet" method="get" style="margin-top: 60px; padding-bottom: 30%">
+    <form name="login" action="RegisterServlet" method="post" style="margin-top: 60px; padding-bottom: 30%">
     <table>
     <tr>
     	<td>Name: <input type="text" name="name"></td>

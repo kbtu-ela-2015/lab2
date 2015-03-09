@@ -1,6 +1,7 @@
 package com.post.kz;
 
 import java.util.Vector;
+
 public class MyPost {
 	static Vector<String> arr = new Vector<String>();
 	
@@ -13,12 +14,13 @@ public class MyPost {
 		return arr;
 	}
 
-	public static String printPost(){
-		//int len = arr.size();
-		for(String s: arr){
-			return s;
-		}
+	public String printPost(int i){
+		if(!(arr.isEmpty()))
+			return arr.elementAt(i);
+		
 		return null;
 	}
+
+
 	
 }
